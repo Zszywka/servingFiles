@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "stop": "node index3.js",
+    "start": "node in3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zszywka/fileSystem-fs.x-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zszywka/fileSystem-fs.x-/issues"
+  },
+  "homepage": "https://github.com/Zszywka/fileSystem-fs.x-#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "gif-frames": "^0.4.0",
+    "npm": "^6.1.0"
+  }
+}
