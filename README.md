@@ -8,7 +8,7 @@ Use the fs.readFile method to read the file. Also remember to set the right head
 a simple server that will give the customer a response in the form of "Hello World!".
 
 --> index1.js
-the application returns the response to the client ('<h1> Hello World! </ h1>');
+the application returns the response to the client ('Hello World!');
 if the query method is GET and the address is / hello. 
 Otherwise, it is worth showing the client that we are unable to handle his query 
 and send a response with a specific status(404)
