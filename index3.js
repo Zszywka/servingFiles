@@ -4,7 +4,7 @@ var server = http.createServer();
 
 
 server.on('request', function(request, response) {
-  if (request.method === 'GET' && request.url === '/index3') {
+  if (request.method === 'GET' && request.url === '/') {
     // line 13 -use it only if you enter the index3
     response.setHeader("Content-Type", "text/html; charset=utf-8");
     fs.readFile('./index.html', 'utf-8', function(err, data) {
@@ -24,4 +24,4 @@ server.on('request', function(request, response) {
   }
 });
 
-server.listen(8080);
+server.listen(8081);
